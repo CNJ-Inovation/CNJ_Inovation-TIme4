@@ -10,7 +10,7 @@ rcParams['figure.figsize'] = 12, 6
 sns.set(style='whitegrid', palette='muted', font_scale=1.5)
 
 # Preparando os dados
-path = "json_filtrados\justica_eleitoral.json"
+path = "dados\justica_eleitoral1.json"
 dataLoad = f.load_data(path)
 encoded_seqs = f.prepare_inputs(dataLoad)
 scaler = MinMaxScaler()
