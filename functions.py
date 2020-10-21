@@ -38,7 +38,6 @@ def load_data(path):
         dadosBasicos = np.vstack((dadosBasicos, one_dbs))
     return dadosBasicos
 
-
 def prepare_inputs(data_for_encoder):
     oe = OrdinalEncoder()
     oe.fit(np.concatenate([data_for_encoder], axis=0))
