@@ -105,8 +105,5 @@ plt.plot(history['val_acc'])
 plt.title('model acc')
 plt.ylabel('accuracy')
 plt.xlabel('epoch')
-
 plt.legend(['train loss', 'test loss', 'train acc', 'test acc'], loc='upper right')
-
 plt.show()
-a = 0
